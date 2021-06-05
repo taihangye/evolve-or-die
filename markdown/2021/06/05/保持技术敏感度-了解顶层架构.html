@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>保持技术敏感度：了解顶层架构 | Evolve or Die</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="保持技术敏感度：了解顶层架构" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="吃老本 前一篇聊了成为技术管理者后，不免会在技术上有所退步，我们首先要接受这个事实。那接受后是不是就可以安心地吃老本呢，当然不是。在现金这个社会，只需要一两年，甚至更短的时间内技术就会迭代，一年前火热的框架，可能在今年就会被另一套技术或是框架所替代。作为技术管理者，除非你在成为技术管理者前已经有大量的沉淀，对各种技术融汇贯通，否则老本真没几年好吃。 Why/How/What 那既然技术迭代得那么快，而管理者又不可能完全专注于技术上，那么就要着眼于顶层的架构，能够对自己领域内的系统的不同设计回答why, how和what。why其实是最重要的，核心是回答一个系统服务于解决一个什么现实中的问题，就比如消息队列是一种服务间的异步通讯方式，主要解决不需要同步（即时性）的操作的请求和应答。how是回答为了实现这个功能，从meta层面如何设计这个系统，这儿有一个比较好用的判断标准，你能不能在10分钟（甚至5分钟）就把这个系统的设计思路给一个有一定技术背景但没有结束过你的系统的人讲清楚系统是怎么运作的，并谈谈其关键指标，不同设计的优劣与分别适用于怎么样的场景、需求。这儿还是以消息队列来举例，最经典的kafka的模型，producer -&gt; broker/queue -&gt; consumer，一个或多个producer发送消息到broker的某个topic，一个或多个consumer可以订阅broker的topic来获得更新，这就是最基础的how。what注重于细节设计，注重一个系统里每个子系统的设计与实现，了解的深度可以更加因地制宜，但一些关键点还是需要知道的。比如消息队列中broker的persistent策略，consumer如何确保不会漏消系，遇到重复的消息应该怎么处理等等。 Priority 一个技术型公司当技术团队超过50人后一线技术管理者需要更了解how和what，而更高层级的管理者的应该更偏重why和how，放手what。这儿举个WhatsApp的例子，当WhatsApp在被FB收购前还只有10~30人左右的工程师团队时，每个人都非常hands on，也没有什么一线技术管理，只有工程师，一个工程师负责一大块的功能。当被收购后慢慢团队到了50-100人，就开始出现技术管理，这个阶段没有太多的层级，所以每个manager其实也还是输出一定代码的。后期发展到几百人的团队，不同的国家都有团队时，一线manager就不会再输出太多代码了（偶尔会有一些，因人而异），而senior manager及以上更多地就会注重why，how并且challenge手下一些what的问题，来获得二手的信息。" />
+<meta property="og:description" content="吃老本 前一篇聊了成为技术管理者后，不免会在技术上有所退步，我们首先要接受这个事实。那接受后是不是就可以安心地吃老本呢，当然不是。在现金这个社会，只需要一两年，甚至更短的时间内技术就会迭代，一年前火热的框架，可能在今年就会被另一套技术或是框架所替代。作为技术管理者，除非你在成为技术管理者前已经有大量的沉淀，对各种技术融汇贯通，否则老本真没几年好吃。 Why/How/What 那既然技术迭代得那么快，而管理者又不可能完全专注于技术上，那么就要着眼于顶层的架构，能够对自己领域内的系统的不同设计回答why, how和what。why其实是最重要的，核心是回答一个系统服务于解决一个什么现实中的问题，就比如消息队列是一种服务间的异步通讯方式，主要解决不需要同步（即时性）的操作的请求和应答。how是回答为了实现这个功能，从meta层面如何设计这个系统，这儿有一个比较好用的判断标准，你能不能在10分钟（甚至5分钟）就把这个系统的设计思路给一个有一定技术背景但没有结束过你的系统的人讲清楚系统是怎么运作的，并谈谈其关键指标，不同设计的优劣与分别适用于怎么样的场景、需求。这儿还是以消息队列来举例，最经典的kafka的模型，producer -&gt; broker/queue -&gt; consumer，一个或多个producer发送消息到broker的某个topic，一个或多个consumer可以订阅broker的topic来获得更新，这就是最基础的how。what注重于细节设计，注重一个系统里每个子系统的设计与实现，了解的深度可以更加因地制宜，但一些关键点还是需要知道的。比如消息队列中broker的persistent策略，consumer如何确保不会漏消系，遇到重复的消息应该怎么处理等等。 Priority 一个技术型公司当技术团队超过50人后一线技术管理者需要更了解how和what，而更高层级的管理者的应该更偏重why和how，放手what。这儿举个WhatsApp的例子，当WhatsApp在被FB收购前还只有10~30人左右的工程师团队时，每个人都非常hands on，也没有什么一线技术管理，只有工程师，一个工程师负责一大块的功能。当被收购后慢慢团队到了50-100人，就开始出现技术管理，这个阶段没有太多的层级，所以每个manager其实也还是输出一定代码的。后期发展到几百人的团队，不同的国家都有团队时，一线manager就不会再输出太多代码了（偶尔会有一些，因人而异），而senior manager及以上更多地就会注重why，how并且challenge手下一些what的问题，来获得二手的信息。" />
+<link rel="canonical" href="https://taihangye.github.io/evolve-or-die/markdown/2021/06/05/%E4%BF%9D%E6%8C%81%E6%8A%80%E6%9C%AF%E6%95%8F%E6%84%9F%E5%BA%A6-%E4%BA%86%E8%A7%A3%E9%A1%B6%E5%B1%82%E6%9E%B6%E6%9E%84.html" />
+<meta property="og:url" content="https://taihangye.github.io/evolve-or-die/markdown/2021/06/05/%E4%BF%9D%E6%8C%81%E6%8A%80%E6%9C%AF%E6%95%8F%E6%84%9F%E5%BA%A6-%E4%BA%86%E8%A7%A3%E9%A1%B6%E5%B1%82%E6%9E%B6%E6%9E%84.html" />
+<meta property="og:site_name" content="Evolve or Die" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-06-05T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"吃老本 前一篇聊了成为技术管理者后，不免会在技术上有所退步，我们首先要接受这个事实。那接受后是不是就可以安心地吃老本呢，当然不是。在现金这个社会，只需要一两年，甚至更短的时间内技术就会迭代，一年前火热的框架，可能在今年就会被另一套技术或是框架所替代。作为技术管理者，除非你在成为技术管理者前已经有大量的沉淀，对各种技术融汇贯通，否则老本真没几年好吃。 Why/How/What 那既然技术迭代得那么快，而管理者又不可能完全专注于技术上，那么就要着眼于顶层的架构，能够对自己领域内的系统的不同设计回答why, how和what。why其实是最重要的，核心是回答一个系统服务于解决一个什么现实中的问题，就比如消息队列是一种服务间的异步通讯方式，主要解决不需要同步（即时性）的操作的请求和应答。how是回答为了实现这个功能，从meta层面如何设计这个系统，这儿有一个比较好用的判断标准，你能不能在10分钟（甚至5分钟）就把这个系统的设计思路给一个有一定技术背景但没有结束过你的系统的人讲清楚系统是怎么运作的，并谈谈其关键指标，不同设计的优劣与分别适用于怎么样的场景、需求。这儿还是以消息队列来举例，最经典的kafka的模型，producer -&gt; broker/queue -&gt; consumer，一个或多个producer发送消息到broker的某个topic，一个或多个consumer可以订阅broker的topic来获得更新，这就是最基础的how。what注重于细节设计，注重一个系统里每个子系统的设计与实现，了解的深度可以更加因地制宜，但一些关键点还是需要知道的。比如消息队列中broker的persistent策略，consumer如何确保不会漏消系，遇到重复的消息应该怎么处理等等。 Priority 一个技术型公司当技术团队超过50人后一线技术管理者需要更了解how和what，而更高层级的管理者的应该更偏重why和how，放手what。这儿举个WhatsApp的例子，当WhatsApp在被FB收购前还只有10~30人左右的工程师团队时，每个人都非常hands on，也没有什么一线技术管理，只有工程师，一个工程师负责一大块的功能。当被收购后慢慢团队到了50-100人，就开始出现技术管理，这个阶段没有太多的层级，所以每个manager其实也还是输出一定代码的。后期发展到几百人的团队，不同的国家都有团队时，一线manager就不会再输出太多代码了（偶尔会有一些，因人而异），而senior manager及以上更多地就会注重why，how并且challenge手下一些what的问题，来获得二手的信息。","url":"https://taihangye.github.io/evolve-or-die/markdown/2021/06/05/%E4%BF%9D%E6%8C%81%E6%8A%80%E6%9C%AF%E6%95%8F%E6%84%9F%E5%BA%A6-%E4%BA%86%E8%A7%A3%E9%A1%B6%E5%B1%82%E6%9E%B6%E6%9E%84.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://taihangye.github.io/evolve-or-die/markdown/2021/06/05/%E4%BF%9D%E6%8C%81%E6%8A%80%E6%9C%AF%E6%95%8F%E6%84%9F%E5%BA%A6-%E4%BA%86%E8%A7%A3%E9%A1%B6%E5%B1%82%E6%9E%B6%E6%9E%84.html"},"headline":"保持技术敏感度：了解顶层架构","dateModified":"2021-06-05T00:00:00-05:00","datePublished":"2021-06-05T00:00:00-05:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/evolve-or-die/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://taihangye.github.io/evolve-or-die/feed.xml" title="Evolve or Die" /><link rel="shortcut icon" type="image/x-icon" href="/evolve-or-die/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/evolve-or-die/">Evolve or Die</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/evolve-or-die/about/">About Me</a><a class="page-link" href="/evolve-or-die/search/">Search</a><a class="page-link" href="/evolve-or-die/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">保持技术敏感度：了解顶层架构</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-06-05T00:00:00-05:00" itemprop="datePublished">
+        Jun 5, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/evolve-or-die/categories/#markdown">markdown</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#吃老本">吃老本</a></li>
+<li class="toc-entry toc-h2"><a href="#whyhowwhat">Why/How/What</a></li>
+<li class="toc-entry toc-h2"><a href="#priority">Priority</a></li>
+</ul><h2 id="吃老本">
+<a class="anchor" href="#%E5%90%83%E8%80%81%E6%9C%AC" aria-hidden="true"><span class="octicon octicon-link"></span></a>吃老本</h2>
+<p>前一篇聊了成为技术管理者后，不免会在技术上有所退步，我们首先要接受这个事实。那接受后是不是就可以安心地吃老本呢，当然不是。在现金这个社会，只需要一两年，甚至更短的时间内技术就会迭代，一年前火热的框架，可能在今年就会被另一套技术或是框架所替代。作为技术管理者，除非你在成为技术管理者前已经有大量的沉淀，对各种技术融汇贯通，否则老本真没几年好吃。</p>
+<h2 id="whyhowwhat">
+<a class="anchor" href="#whyhowwhat" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why/How/What</h2>
+<p>那既然技术迭代得那么快，而管理者又不可能完全专注于技术上，那么就要着眼于顶层的架构，能够对自己领域内的系统的不同设计回答why, how和what。why其实是最重要的，核心是回答一个系统服务于解决一个什么现实中的问题，就比如消息队列是一种服务间的异步通讯方式，主要解决不需要同步（即时性）的操作的请求和应答。how是回答为了实现这个功能，从meta层面如何设计这个系统，这儿有一个比较好用的判断标准，你能不能在10分钟（甚至5分钟）就把这个系统的设计思路给一个有一定技术背景但没有结束过你的系统的人讲清楚系统是怎么运作的，并谈谈其关键指标，不同设计的优劣与分别适用于怎么样的场景、需求。这儿还是以消息队列来举例，最经典的kafka的模型，producer -&gt; broker/queue -&gt; consumer，一个或多个producer发送消息到broker的某个topic，一个或多个consumer可以订阅broker的topic来获得更新，这就是最基础的how。what注重于细节设计，注重一个系统里每个子系统的设计与实现，了解的深度可以更加因地制宜，但一些关键点还是需要知道的。比如消息队列中broker的persistent策略，consumer如何确保不会漏消系，遇到重复的消息应该怎么处理等等。</p>
+<h2 id="priority">
+<a class="anchor" href="#priority" aria-hidden="true"><span class="octicon octicon-link"></span></a>Priority</h2>
+<p>一个技术型公司当技术团队超过50人后一线技术管理者需要更了解how和what，而更高层级的管理者的应该更偏重why和how，放手what。这儿举个WhatsApp的例子，当WhatsApp在被FB收购前还只有10~30人左右的工程师团队时，每个人都非常hands on，也没有什么一线技术管理，只有工程师，一个工程师负责一大块的功能。当被收购后慢慢团队到了50-100人，就开始出现技术管理，这个阶段没有太多的层级，所以每个manager其实也还是输出一定代码的。后期发展到几百人的团队，不同的国家都有团队时，一线manager就不会再输出太多代码了（偶尔会有一些，因人而异），而senior manager及以上更多地就会注重why，how并且challenge手下一些what的问题，来获得二手的信息。</p>
+
+  </div><a class="u-url" href="/evolve-or-die/markdown/2021/06/05/%E4%BF%9D%E6%8C%81%E6%8A%80%E6%9C%AF%E6%95%8F%E6%84%9F%E5%BA%A6-%E4%BA%86%E8%A7%A3%E9%A1%B6%E5%B1%82%E6%9E%B6%E6%9E%84.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/evolve-or-die/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/evolve-or-die/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/evolve-or-die/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Mainly about technology, management, ideas</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/fastai" title="fastai"><svg class="svg-icon grey"><use xlink:href="/evolve-or-die/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/fastdotai" title="fastdotai"><svg class="svg-icon grey"><use xlink:href="/evolve-or-die/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
