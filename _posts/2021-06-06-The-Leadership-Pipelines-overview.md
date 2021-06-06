@@ -5,7 +5,7 @@ categories: [markdown]
 title: Thoughts about the Leadership Pipeline - Overview
 ---
 There are six leadership passages that a leader needs to go through. The book focuses on helping readers become familiar with the skills, time applications, and work values demanded by each passage, as well as this particular leadership gestalt.
-![]({{site.baseurl}}/images/six_passages.png "Critical Career Passsages in a Large Business Organization")
+![]({{ site.baseurl }}/images/six_passages.png "Critical Career Passsages in a Large Business Organization")
 ## Passage One: From Managing Self to Managing Others
 - Manageing self: They contribute by doing the assigned work within given time frames and in ways that meet objectives. By sharpening and boardening their individual skills, they make increased contributions and are then considered "promotable" by organizations. From a time application standpoint, the learning involves planning (so that work is completed on time), punctuality, content, quality, and reliability. The work values to be developed include acceptance of the company culture and adopting of professional standards.
 - Managing others: The skills people should learn at this first leadership passage include planning work, filling jobs, assigning work, motivating, coaching, and measuring the work of others.They must shift from "doing" work to getting work done through others. They must believe that making time for others, planning, coaching, and the like are necessary tasks and are their responsibility. More than that, they must view this other-directed work as mission-critical to their sucess.
