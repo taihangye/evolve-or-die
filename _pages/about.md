@@ -4,5 +4,6 @@ title: About Me
 permalink: /about/
 ---
 I am a software engineer at WhatsApp. I believe that every entity needs to focus on evolving, making connection with the world by consuming input and producing output. 
-In the past, writing and maintaining a blog post is not my thing. Recently, taking a course from [fast.ai](https://www.fast.ai/) encourages me to take my first step starting writing and bloging. Note that this blog is powered by [fastpages](https://github.com/fastai/fastpages) which takes little effort to maintain a blog while supports bunch of formats e.g. docx, jupyter notebook, markdown to share one's work.
-This blog will mainly sharing my two cents mainly on technologies, leadership/managment. It may also touch areas that inspired me now and then.
+In the past, writing and maintaining a blog is not my thing. Recently, taking a course from [fast.ai](https://www.fast.ai/) encourages me to take my first step starting writing and bloging. Note that this blog is powered by [fastpages](https://github.com/fastai/fastpages) which takes little effort to maintain a blog while supports bunch of formats e.g. docx, jupyter notebook, markdown to share one's work.
+
+This blog will mainly sharing my two cents mainly on technologies, leadership/managment. It may also touch areas that inspired me now and then. My main goal is journaling my ideas for personal reflection and hopefully inspiring you to evolve as well.
