@@ -3,9 +3,6 @@ layout: page
 title: About Me
 permalink: /about/
 ---
-
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
-
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+I am a software engineer at WhatsApp. I believe that every entity needs to focus on evolving, making connection with the world by consuming input and producing output. 
+In the past, writing and maintaining a blog post is not my thing. Recently, taking a course from [fast.ai](https://www.fast.ai/) encourages me to take my first step starting writing and bloging. Note that this blog is powered by [fastpages](https://github.com/fastai/fastpages) which takes little effort to maintain a blog while supports bunch of formats e.g. docx, jupyter notebook, markdown to share one's work.
+This blog will mainly sharing my two cents mainly on technologies, leadership/managment. It may also touch areas that inspired me now and then.
