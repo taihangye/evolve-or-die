@@ -1,0 +1,16 @@
+---
+toc: true
+layout: post
+categories: [markdown]
+title: Why I start blogging and why the blog name is "Evolve Or Die"
+---
+## Evolve Or Die
+> Principles by Ray Dalio:  Evolve or die. This evolutionary cycle is not just for people but for countries, companies, economies—for everything. And it is naturally self-correcting as a whole, though not necessarily for its parts. For example, if there is too much supply and waste in a market, prices will go down, companies will go out of business, and capacity will be reduced until the supply falls in line with the demand, at which time the cycle will start to move in the opposite direction. Similarly, if an economy turns bad enough, those responsible for running it will make the political and policy changes that are needed or they will not survive, making room for their replacements to come along. These cycles are continuous and play out in logical ways and they tend to be self-reinforcing.
+
+I believe that every entity needs to focus on evolving (or they will die out), making connection with the world while consuming input from it and producing output to it. It's similar to a dot on a huge net, without connecting to other dots, it's a an island, it never grows or influences other dots.
+## Why blogging
+In the past, writing and maintaining a blog is not my thing. Mostly, it's due to imposter syndrome that I don't feel I am qualified to share my immature idea. Recently, taking a course from [fast.ai](https://www.fast.ai/) encourages me to take my first step writing and bloging since I am best postioned to help people one step behind me (including myself 6 months ago.) [1]
+
+This blog will share my two cents mainly on technologies, leadership and managment. It may also touch areas that inspired me such as psychology, philosophy etc. This blog is powered by [fastpages](https://github.com/fastai/fastpages) which takes me little effort to maintain while supports bunch of formats e.g. docx, jupyter notebook, markdown to share one's work.
+
+[1] [Why you (yes, you) should blog](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045) by Rachel Thomas
