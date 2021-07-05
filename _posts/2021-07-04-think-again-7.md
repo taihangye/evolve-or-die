@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-categories: [think_again]
+categories: [personal_development,reading_notes]
 title: Think Again - summary 2
 ---
 > Sometimes people resist not because they're dismissing the argument but because they're rejecting the feeling of their behavior being controlled. It helps to respect their autonomy by reminding them that it's up to them to choose what they believe.
