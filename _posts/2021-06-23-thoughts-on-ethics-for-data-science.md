@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-categories: [markdown]
+categories: [deeplearning,ethics]
 title: Thoughts on Ethics for Data Science
 ---
 Recently, I am taking a online deep learning [course](https://course.fast.ai/) on fast.ai. The lesson 3 of the course is focusing on data ethics. The lecturer, [Rachel Thomas](https://www.fast.ai/about/#rachel), touches a few points that I echo back.
