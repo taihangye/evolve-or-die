@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-categories: [markdown]
+categories: [tech,management]
 title: 保持技术敏感度：Side Project
 ---
 如果想长期在技术领域深耕，仅仅是take inputs from books, blogs, news，或者写一些对某某技术的“表面”的理解，那可能导致的一个问题就是深度和实战经验的匮乏。这个时候比较好的方式是做一些Side Project。
