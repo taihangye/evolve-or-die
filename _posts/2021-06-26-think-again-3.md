@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-categories: [markdown]
+categories: [personal_development,reading_notes]
 title: Think Again - gain confident and being wrong with reflection
 ---
 > Plenty of evidence suggests that confidence is just as often the result of progress as the cause of it. We don't have to wait for our confidence to rise to achieve challenging goals. We can build it through achieving challending goals.
