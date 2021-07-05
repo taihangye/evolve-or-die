@@ -35,7 +35,7 @@ title: The Leadership Pipeline - leadership development matrix
 * Legend
     * <span style="color:darkgreen">**Dark green**</span>: Super star. The last person to let go
     * <span style="color:lightgreen">**Light green**</span>: Valuable resource. Either showing high potential or exceptional performance
-    * <span style="color:lightskyblye">**Light Sky Blue**</span>: Key stone. Main contributors of the org/team and need to be recognized and appreciated
+    * <span style="color:lightskyblue">**Light Sky Blue**</span>: Key stone. Main contributors of the org/team and need to be recognized and appreciated
     * <span style="color:yellow">**Yellow**</span>: A question mark. Need attention on either performance and/or potential. If people leaving, it’s okay
     * <span style="color:red">**Red**</span>: An exclamation mark.  Need extra attention from manager and need to improve immediately. Otherwise, need to let go or be demoted
 
