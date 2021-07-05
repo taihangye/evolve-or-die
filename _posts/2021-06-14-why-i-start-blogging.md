@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-categories: [personal]
+categories: [personal_development]
 title: Why I start blogging and why the blog name is "Evolve Or Die"
 ---
 ## Evolve Or Die
