@@ -25,13 +25,15 @@ title: The Leadership Pipeline - leadership development matrix
 * Exceptional performance: Constant exceeding
 * Full performance: Constantly meet
 * Not yet full performance: Below standard
+
 ![]({{ site.baseurl }}/images/the_leadership_pipeline/four_steps.png "performance four steps progress")
+
 ![]({{ site.baseurl }}/images/the_leadership_pipeline/transition_from_full.png "Full performance transitions")
 
 ## Leadership development matrix
 
 * Legend
-    * *Dark green*: Super star. The last person to let go
+    * <span style="color:darkgreen">Dark green</span>.: Super star. The last person to let go
     * *Light green*: Valuable resource. Either showing high potential or exceptional performance
     * *Blue*: Key stone. Main contributors of the org/team and need to be recognized and appreciated
     * *Yellow*: A question mark. Need attention on either performance and/or potential. If people leaving, it’s okay
@@ -40,6 +42,7 @@ title: The Leadership Pipeline - leadership development matrix
 ![]({{ site.baseurl }}/images/the_leadership_pipeline/matrix.png "The leadership development matrix")
 
 * Transitions among different boxes
+
 ![]({{ site.baseurl }}/images/the_leadership_pipeline/box_transition.png "Transitions among boxes")
 
 
