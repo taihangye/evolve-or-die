@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-categories: [markdown]
+categories: [personal_development,reading_notes]
 title: Think Again - conflicts and rethink
 ---
 > All in all, more than a hundred studies have examined conflict types in over eight thousand teams. A meta-analysis of those studies showed that relationship conflict is generally bad for performance, but some task conflict can be beneficial: it's been linked to higher creativity and smarter choices. 
