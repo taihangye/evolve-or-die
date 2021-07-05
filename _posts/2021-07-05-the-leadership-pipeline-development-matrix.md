@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-categories: [leadership]
+categories: [leadership,reading_notes]
 title: The Leadership Pipeline - leadership development matrix
 ---
 ## Three categories of potentials
