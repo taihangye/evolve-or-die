@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-categories: [markdown]
+categories: [personal_development,reading_notes]
 title: Think Again - Apple anecdote and Mount Stupid
 ---
 > The legend of Apple's renaissance revolves around the lone genius of Steve Jobs. It was his conviction and clarity of vision, the story goes, that gave birth to the iPhone. Th reality is that he was dead-set against the mobile phone category. His employees had the vision for it, and it was their ability to change his mind that really revived Apple. Although Jobs knew how to "think different", it was his team that did much of the rethinking.
