@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-categories: [markdown]
+categories: [deeplearning,tech]
 title: Thoughts about tenacity and deep learning
 ---
 The following are quoted from a fast.ai notebook (04_mnist_basics) discussing Tenacity and Deep Learning. I want to share some reflection on this "touching" anecdote.
