@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-categories: [markdown]
+categories: [personal_development,reading_notes]
 title: Think Again - being wrong and opinions
 ---
 > I've noticed a paradox in great scientists and superforecasters: the reason they're so comfortable being wrong is that they're terrified of being wrong. What sets them apart is the time horizon. They're determined to reach the correct answer in the long run, and they know that means they have to be open to stumbling, backtracking, and rerouting in the short run.
