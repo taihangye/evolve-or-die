@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-categories: [leadership]
+categories: [leadership,reading_notes]
 title: Thoughts about the Leadership Pipeline - Overview
 ---
 There are six leadership passages that a leader needs to go through. The book focuses on helping readers become familiar with the skills, time applications, and work values demanded by each passage, as well as this particular leadership gestalt.
