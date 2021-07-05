@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-categories: [think_again]
+categories: [personal_development,reading_notes]
 title: Think Again - summary 1
 ---
 > To prevent overconfidence in your knowledge, reflect on how well you can explain a given subject.
