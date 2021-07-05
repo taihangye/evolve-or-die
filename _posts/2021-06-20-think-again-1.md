@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-categories: [markdown]
+categories: [personal_development,reading_notes]
 title: Think Again - mentality and "I'm not biased" bias
 ---
 > Think again can help you generate new solutions to old problems and revisit old solutions to new problems. It's a path to learning more from the poeple around you and living with fewer regrets. A hallmark of wisdom is knowing when it's time to abandon some of your most treasured tools and some of the most cherished parts of your identity.
