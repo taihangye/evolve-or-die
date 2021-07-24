@@ -23,6 +23,7 @@ title: Angel - How to invest in technology startups (Chapter 1 - 10)
 > We live in a world full of network effects. The nodes in the network here in the Bay Area are the investors (angels, incubators, and venture capitalists), founders, service providers (colleges, lawyers, headhunters, and banks), and the talent pool (developers, designers, and marketers).
 
 ## Chapter 7: 投资阶段
+> 
 - sweat equity: It’s not an official round of funding. It’s the original creation of the business, and, unlike an investment round, the ownership here is paid for with the founders’ own sweat.
 - bootstrapping: A company with sweat equity has built its product or service based on the talents of its team, but a bootstrapped company might have had some outside help—but not from investors. For example, many times the founder of a startup will find a client who is willing to pay for a product that they built with sweat equity.
 - Friends and Family
