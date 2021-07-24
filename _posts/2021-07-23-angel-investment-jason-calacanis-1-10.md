@@ -36,15 +36,12 @@ title: Angel - How to invest in technology startups (Chapter 1 - 10)
 ## Chapter 8: 创始人<>天使<>风险投资
 > Now, in today’s modern age, I think the first $5 million you make is “take the edge off” money. You now have a decade of capital to rest on. However, when you break $10 million you have “escape velocity,” where you will never have to work again. The $500,000 in yearly interest you net should cover your expenses for a lifetime.
 However, when you get over $20 million, you’re in the “fuck you money” zone, where you can tell anyone to go fuck themselves. It’s a dangerous test of a founder’s resolve in my experience to go from being under the gun to being able to tell anyone who stands in your way to go make you a ham sandwich. VCs really don’t like to have founders get to “escape velocity” or “fuck you money".
-
-For angels, secondary shares are a wise way to “dollar cost average” your returns. If you have a chance to sell 25 percent of your position once or twice before the IPO, it would be wise to do so because we’ve all seen companies worth billions go to zero many, many, many times.
-
-Being a founder is amazing because you get to build what you want to see in the world and you’re the “god-king/queen” at your company, but the odds are wildly against founders making a huge return, while the odds are in favor of a lifelong angel or venture capitalist getting rich.
+> For angels, secondary shares are a wise way to “dollar cost average” your returns. If you have a chance to sell 25 percent of your position once or twice before the IPO, it would be wise to do so because we’ve all seen companies worth billions go to zero many, many, many times.
+> Being a founder is amazing because you get to build what you want to see in the world and you’re the “god-king/queen” at your company, but the odds are wildly against founders making a huge return, while the odds are in favor of a lifelong angel or venture capitalist getting rich.
 
 ## Chapter 9: 机会成本
 > How to allocate your finite time and energy efficiently is something you constantly have to revisit as an investor, founder, parent, and human being. The cost of not revisiting your allocation of time is great, leading to massive regret at having spent too much time on a startup, marriage, friendship, or investment that is destined to disappoint you or destroy your soul.
 
 ## Chapter 10: 让自己幸运的方法
 > It’s time for you to unplug from the Matrix and realize that you don’t need to pretend you’re rich by getting the premium channel package, and actually get rich by taking intelligent risks.
-
-Even if the investments had failed, even if people had laughed at me calling myself an angel, even though I was only investing $500 at a time, I would have learned a heck of a lot and met a ton of entrepreneurial people. You can make your own luck in this life by putting yourself next to the people who are already winning.
+> Even if the investments had failed, even if people had laughed at me calling myself an angel, even though I was only investing $500 at a time, I would have learned a heck of a lot and met a ton of entrepreneurial people. You can make your own luck in this life by putting yourself next to the people who are already winning.
