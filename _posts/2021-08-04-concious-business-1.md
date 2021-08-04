@@ -2,7 +2,7 @@
 toc: true
 layout: post
 categories: [personal_development,business]
-title: Concious business: how to build value through values - 1
+title: Concious business - how to build value through values - 1
 ---
 > The information's only value is in how it is interpreted through the mental models of the "listener".
 
@@ -10,5 +10,5 @@ At the end of the day, all the data (information) related operations e.g. collec
 
 > I use seven qualities to distinguish conscious from unconscious employees. The first three are character attributes: unconditional responsibility, essential integrity, and ontological humility. The next three are interpersonal skills: authentic communication, constructive negotiation, and impeccable coordination. The seventh quality is an enabling condition for the previous six: emotional master.
 
-This book is centered around these seven qualities.
+This book is centered around these seven qualities to achieve concious business. 
 
