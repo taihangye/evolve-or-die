@@ -2,7 +2,7 @@
 toc: true
 layout: post
 categories: [investment,reading_notes]
-title: The Psychology of Money: Timeless lesson of Wealth, Greed, and Happiness - Luck & Risk
+title: The Psychology of Money - Timeless lesson of Wealth, Greed, and Happiness - Luck & Risk
 ---
 > “Luck and risk are both the reality that every outcome in life is guided by forces other than individual effort. They are so similar that you can’t believe in one without equally respecting the other. They both happen because the world is too complex to allow 100% of your actions to dictate 100% of your outcomes. They are driven by the same thing: You are one person in a game with seven billion other people and infinite moving parts. The accidental impact of actions outside of your control can be more consequential than the ones you consciously take.”
 
