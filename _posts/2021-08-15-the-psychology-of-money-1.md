@@ -2,7 +2,7 @@
 toc: true
 layout: post
 categories: [investment,reading_notes]
-title: The Psychology of Money: Timeless lesson of Wealth, Greed, and Happiness - No one's crazy
+title: The Psychology of Money - Timeless lesson of Wealth, Greed, and Happiness - No one's crazy
 ---
 > “Studying history makes you feel like you understand something. But until you’ve lived through it and personally felt its consequences, you may not understand it enough to change your behavior.”
 
