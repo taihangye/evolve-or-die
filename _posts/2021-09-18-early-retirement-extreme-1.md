@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-categories: [reading_notes]
+categories: [investment,FIRE,reading_notes]
 title: Early Retirement Extreme - A philosophical and practical guide to financial independence - 1
 ---
 这本书是2010年写的，Jacob Lund Fisker是比较早期Financial Independence Retire Early (FIRE)的倡导者。FIRE到后面也分成了LEAN FIRE, FAT FIRE等等很多种，而这本书主要是偏向于LEAN FIRE，大致就是尽可能削减生活成本，用很短的时间实现财务自由（作者用了5年）。作者在书中主要说了一种文艺复兴的人类，学习很多技能，尽可能自己做事，从各方面降低生活成本，避免消费主义陷阱，也给出了挺多实打实的计算（虽然不是重点）。书本身比较偏向于哲学而不是方法论，作者相信每个人有每个人自己的FIRE，而过多描述他自己的FIRE本身意义不大，授人以鱼不如授人以渔。
