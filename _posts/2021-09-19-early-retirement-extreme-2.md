@@ -20,7 +20,7 @@ FIRE: 财富自由，提早退休。其实强调的重点在于财富自由。�
 
 把过程(因)作为终极目的，而不是结果最为终极目的。运动带来好的身材，并不意味着运动员就不需要运动了(因为他们已经有好身材了)，而是因为他们运动才有的好身材。
 
-> “Barriers represent a cost which must be paid. The willingness to pay depends on a combination of dissatisfaction with the present situation, vision of the future situation, and the practicality of changing from the present situation to the future situation. This will to change can be represented by the volume of the pyramid in the figure.”
+> “Barriers represent a cost which must be paid. The willingness to pay depends on a combination of dissatisfaction with the present situation, vision of the future situation, and the practicality of changing from the present situation to the future situation. This will to change can be represented by the volume of the pyramid in the figure. The volume of the pyramid represents the will to change from an unsatisfying situation to something else and depends on vision, how practical the change is, and the level of dissatisfaction with the situation.”
 
 ![]({{ site.baseurl }}/images/willingness-pyramid.png "Willingness pyramid")
 
