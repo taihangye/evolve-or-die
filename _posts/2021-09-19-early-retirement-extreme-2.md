@@ -24,10 +24,11 @@ FIRE: 财富自由，提早退休。其实强调的重点在于财富自由。�
 
 ![]({{ site.baseurl }}/images/willingness-pyramid.png "Willingness pyramid")
 
-> “1. Increase your dissatisfaction with present situation.
+> 
+1. Increase your dissatisfaction with present situation.
 2. Strengthen your vision of future situation.
 3. Build a plan to get from the present to the future.
-4. Lower the perceived cost of the plan.”
+4. Lower the perceived cost of the plan.
 
 对现状越不满，对未来的状况越有清晰的目标，对计划越有具体的规划，对计划的成本越有清晰的认识，实际做出改变的概率就越大。
 
