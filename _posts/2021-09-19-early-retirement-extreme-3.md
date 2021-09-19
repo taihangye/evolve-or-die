@@ -15,6 +15,7 @@ title: Early Retirement Extreme - A philosophical and practical guide to financi
 > “This figure shows a narrow delta function representing the skills of a specialist. A dotted line and an arrow represents the shift in demand. The demand now lies almost entirely out of the specialist's supply. This requires the specialist to work very hard to stay on target. The figure also shows a wider bell curve that represents the skills of the generalist. During a similar demand shift, the overlap between the new demand and the generalist's supply is substantial.
 Here, a large problem is that previously acquired, specialized knowledge can't be used as a foundation for new specialized knowledge--by definition, only generalized knowledge can serve this purpose.”
 > “The only thing the specialist knows is how much effort it took to reach the level of the former specialization and that this must now be repeated probably several more times throughout his career.”
+> Creating a system based on specialized production thus increases productivity, but at the cost of increased risk to and pressure on the individual.
 
 ![]({{ site.baseurl }}/images/area-of-knowledge.png "Area of Knoeledge")
 
