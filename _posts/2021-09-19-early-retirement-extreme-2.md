@@ -2,7 +2,7 @@
 toc: true
 layout: post
 categories: [investment,FIRE,reading_notes]
-title: Early Retirement Extreme - A philosophical and practical guide to financial independence - 1
+title: Early Retirement Extreme - A philosophical and practical guide to financial independence - 2
 ---
 > “To paraphrase Einstein, you can't solve your problems with the same mindset that created them. To live as a free person, following lists of easy, repetitive things, possibly in return for some reward, is exactly what should be avoided. Instead, it's necessary to understand how the world works and how people have been specialized to the point of general incompetence, like ants, which only know how to do one job, but do it very well; this is not human nature. To live well, one must go beyond lists and start thinking creatively about solving problems.”
 
