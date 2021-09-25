@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Say goodbye to 996 as a software engineer | Evolve or Die</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Say goodbye to 996 as a software engineer" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="以下只是我的个人经历，不具有普适性，仅供参考。 在FB工作在很多湾区程序员的印象里就是卷，加之最近几年出现的各种社会性新闻，给人一种感觉在FB工作的人WLB总不会太好。确实，有的组会比较卷，半夜发diff，做oncall的也确实是事实，这个时候摆在我们面前的有几个选择： 继续卷burn late night oil 出淤泥而不染：坚持自己的作息，看看是否能维持正常的绩效（当然有pip的风险） 组里环境改变不了，那就改变自己：换组，换公司" />
+<meta property="og:description" content="以下只是我的个人经历，不具有普适性，仅供参考。 在FB工作在很多湾区程序员的印象里就是卷，加之最近几年出现的各种社会性新闻，给人一种感觉在FB工作的人WLB总不会太好。确实，有的组会比较卷，半夜发diff，做oncall的也确实是事实，这个时候摆在我们面前的有几个选择： 继续卷burn late night oil 出淤泥而不染：坚持自己的作息，看看是否能维持正常的绩效（当然有pip的风险） 组里环境改变不了，那就改变自己：换组，换公司" />
+<link rel="canonical" href="https://taihangye.github.io/evolve-or-die/ideas/2021/09/24/say-goodbyte-to-996.html" />
+<meta property="og:url" content="https://taihangye.github.io/evolve-or-die/ideas/2021/09/24/say-goodbyte-to-996.html" />
+<meta property="og:site_name" content="Evolve or Die" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-24T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"以下只是我的个人经历，不具有普适性，仅供参考。 在FB工作在很多湾区程序员的印象里就是卷，加之最近几年出现的各种社会性新闻，给人一种感觉在FB工作的人WLB总不会太好。确实，有的组会比较卷，半夜发diff，做oncall的也确实是事实，这个时候摆在我们面前的有几个选择： 继续卷burn late night oil 出淤泥而不染：坚持自己的作息，看看是否能维持正常的绩效（当然有pip的风险） 组里环境改变不了，那就改变自己：换组，换公司","url":"https://taihangye.github.io/evolve-or-die/ideas/2021/09/24/say-goodbyte-to-996.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://taihangye.github.io/evolve-or-die/ideas/2021/09/24/say-goodbyte-to-996.html"},"headline":"Say goodbye to 996 as a software engineer","dateModified":"2021-09-24T00:00:00-05:00","datePublished":"2021-09-24T00:00:00-05:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/evolve-or-die/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://taihangye.github.io/evolve-or-die/feed.xml" title="Evolve or Die" /><link rel="shortcut icon" type="image/x-icon" href="/evolve-or-die/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/evolve-or-die/">Evolve or Die</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/evolve-or-die/about/">About Me</a><a class="page-link" href="/evolve-or-die/search/">Search</a><a class="page-link" href="/evolve-or-die/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Say goodbye to 996 as a software engineer</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-09-24T00:00:00-05:00" itemprop="datePublished">
+        Sep 24, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/evolve-or-die/categories/#ideas">ideas</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+</ul><p>以下只是我的个人经历，不具有普适性，仅供参考。
+在FB工作在很多湾区程序员的印象里就是卷，加之最近几年出现的各种社会性新闻，给人一种感觉在FB工作的人WLB总不会太好。确实，有的组会比较卷，半夜发diff，做oncall的也确实是事实，这个时候摆在我们面前的有几个选择：</p>
+<ul>
+  <li>继续卷burn late night oil</li>
+  <li>出淤泥而不染：坚持自己的作息，看看是否能维持正常的绩效（当然有pip的风险）</li>
+  <li>组里环境改变不了，那就改变自己：换组，换公司</li>
+</ul>
+
+<p>这里不做道德评判，每个人都有权利做出符合自身情况的选择。这儿我想谈谈我一直以来的作息变换。刚进组的时候因为一切都是新的，前半年到一年会比较努力地去赢得同事和经理的信任，所以工作时间基本上是每天9：30到12：00，13：00到5：30，除去中间的一些休息，大概实打实6-7小时，这样的工作时间看起来似乎也不怎么长，但加上通勤1小时，其实心智投入在和公司相关事的时间有9个半小时（9：00-18：30）。以至于每天回到家吃完饭后就没有意志力去做一些自己的事，大部分的时间都成了couch potato在看视频和刷手机中度过，也就是典型的rat race：起来上班，瞎忙活一天到7点，感觉完全没有力气做一些知道有意义的事，只能靠刷各种app看视频来放松直到睡觉，第二天repeat。这种循环大概持续了一年多。那段时间我非常明显的意识到自己完全没办法摆脱这种循环，每天就在工作，刷手机，看视频，睡觉中度过，明明知道有更重要的事，但就是不能开始或者没办法坚持。</p>
+
+<p>最终是读书“解救”了我。在19年底，完成了一个大项目后，当时的我第一次感觉到了工作带来的burnout，这让当时的我放慢脚步做了一个反思，决定20年要养成坚持读书的习惯。这个习惯是一切改变的起点，让我学习了投资自己，做有意义的事比如冥想、健身、理财等等，更重要的是让我改变了对工作的看法。一直以来我和大多数人一样觉得工作无非就是赚钱，向上爬，给退休囤积足够的钱等等。这些观点本身都没有任何问题，但看待每一个的角度都可以有调整和深挖，赚钱是为了实现财务自由的一种手段，向上爬是为了带领团队做出超越自己一个人能做的极限。而工作本身的意义在满足了基本温饱后，就不仅仅是局限在物质层面，无论是创业还是打工，追求还是一个意义，如果工作本身不能提供你认可的意义，那就纯粹是为了钱工作，那选择换一个工作会是比较好的选择。</p>
+
+<p>有了很多思想上的转变后，我现在的工作和生活就有了非常大的改观。工作日每天会花4-6小时非常高效的工作，给自己列出一天，一周，一个月，一年最重要的一件事，只要在时间段内完成好那一件事就行。一般这会话2-3小时集中精力不受打扰去做，其余的2-3小时就可以做一些必须要完成或是琐碎的事。现在每天9-5工作，中午睡个午觉，晚上6-11留给自己充电。这样的工作节奏能够让我在第二天有足够精力集中注意力在工作上，反而极大的提高了我的工作效率和产出。相比于之前一天9.5小时相对低效的工作，现在能用4-6小时高效的工作，其他时间休息或是做自己的事，反而极大的提高了在工作中的表现。</p>
+
+<p>最后做个小总结：</p>
+<ul>
+  <li>减少通勤时间，或者完全WFH，公司的食堂和其他福利不足以支付你精力的损失。这样能够节省0.5-1小时。</li>
+  <li>每天高效工作的时间控制在4-6小时。极限不应该超过8小时（不能长期持续，必须用PTO来恢复，建议不是非常情况不要让自己集中工作超过6小时）</li>
+  <li>每天选择1-2件最重要的事用50%以上的专注时间去完成（3小时、半天）</li>
+  <li>每天剩余的工作时间（2-3小时处理杂事和相对不重要的事）</li>
+  <li>每天注意休息，能够有午休尽量休息30-60分钟</li>
+  <li>每天留4小时给自己，可以是工作结束后，也可以工作开始前。如果是工作结束后，可以适当休息比如洗澡，睡觉后再开始自己的时间。</li>
+  <li>在自己的4小时中，合理规划。比如可以1小时看书，1小时运动，1小时做做项目，1小时放松等等。每件事有固定的时间段去做，但不要塞得太满，给自己充足的放松和转换的时间。</li>
+  <li>每个1小时中，看每天的状态，状态好可以50分钟做事，10分钟划水，状态不好可以20分钟做事，40分钟划水。重在坚持。</li>
+</ul>
+
+  </div><a class="u-url" href="/evolve-or-die/ideas/2021/09/24/say-goodbyte-to-996.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/evolve-or-die/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/evolve-or-die/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/evolve-or-die/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Mainly about technology, management, ideas</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/fastai" title="fastai"><svg class="svg-icon grey"><use xlink:href="/evolve-or-die/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/fastdotai" title="fastdotai"><svg class="svg-icon grey"><use xlink:href="/evolve-or-die/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
