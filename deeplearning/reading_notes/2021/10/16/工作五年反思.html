@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>五年反思 | Evolve or Die</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="五年反思" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="最近开始关注李沐大神的B站，李沐大神是机器学期、深度学习届的大牛，MXNET的主要作者和维护者之一，在分布式机器学习领域有很重要的贡献，现在任职于AWS做Senior Principal Scientist (应该是L8等级，如果硬要对标国内的话估计在阿里的P10,P11等级）。在翻看大神视频的间隙，看到了一篇大神的工作五年反思以及另一篇用随机梯度下降来优化人生，深受触动。因此，也想借此机会写一篇工作五年总结（08/2016 to 10/2021）来做一次五年反思。" />
+<meta property="og:description" content="最近开始关注李沐大神的B站，李沐大神是机器学期、深度学习届的大牛，MXNET的主要作者和维护者之一，在分布式机器学习领域有很重要的贡献，现在任职于AWS做Senior Principal Scientist (应该是L8等级，如果硬要对标国内的话估计在阿里的P10,P11等级）。在翻看大神视频的间隙，看到了一篇大神的工作五年反思以及另一篇用随机梯度下降来优化人生，深受触动。因此，也想借此机会写一篇工作五年总结（08/2016 to 10/2021）来做一次五年反思。" />
+<link rel="canonical" href="https://taihangye.github.io/evolve-or-die/deeplearning/reading_notes/2021/10/16/%E5%B7%A5%E4%BD%9C%E4%BA%94%E5%B9%B4%E5%8F%8D%E6%80%9D.html" />
+<meta property="og:url" content="https://taihangye.github.io/evolve-or-die/deeplearning/reading_notes/2021/10/16/%E5%B7%A5%E4%BD%9C%E4%BA%94%E5%B9%B4%E5%8F%8D%E6%80%9D.html" />
+<meta property="og:site_name" content="Evolve or Die" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-10-16T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"最近开始关注李沐大神的B站，李沐大神是机器学期、深度学习届的大牛，MXNET的主要作者和维护者之一，在分布式机器学习领域有很重要的贡献，现在任职于AWS做Senior Principal Scientist (应该是L8等级，如果硬要对标国内的话估计在阿里的P10,P11等级）。在翻看大神视频的间隙，看到了一篇大神的工作五年反思以及另一篇用随机梯度下降来优化人生，深受触动。因此，也想借此机会写一篇工作五年总结（08/2016 to 10/2021）来做一次五年反思。","url":"https://taihangye.github.io/evolve-or-die/deeplearning/reading_notes/2021/10/16/%E5%B7%A5%E4%BD%9C%E4%BA%94%E5%B9%B4%E5%8F%8D%E6%80%9D.html","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://taihangye.github.io/evolve-or-die/deeplearning/reading_notes/2021/10/16/%E5%B7%A5%E4%BD%9C%E4%BA%94%E5%B9%B4%E5%8F%8D%E6%80%9D.html"},"headline":"五年反思","dateModified":"2021-10-16T00:00:00-05:00","datePublished":"2021-10-16T00:00:00-05:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/evolve-or-die/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://taihangye.github.io/evolve-or-die/feed.xml" title="Evolve or Die" /><link rel="shortcut icon" type="image/x-icon" href="/evolve-or-die/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/evolve-or-die/">Evolve or Die</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/evolve-or-die/about/">About Me</a><a class="page-link" href="/evolve-or-die/search/">Search</a><a class="page-link" href="/evolve-or-die/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">五年反思</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-10-16T00:00:00-05:00" itemprop="datePublished">
+        Oct 16, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/evolve-or-die/categories/#deeplearning">deeplearning</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/evolve-or-die/categories/#reading_notes">reading_notes</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#做有价值的事">做有价值的事</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#对自己的价值">对自己的价值</a></li>
+<li class="toc-entry toc-h3"><a href="#对核心圈的价值">对核心圈的价值</a></li>
+<li class="toc-entry toc-h3"><a href="#对核心圈以外的价值">对核心圈以外的价值</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#目标的选择">目标的选择</a></li>
+<li class="toc-entry toc-h2"><a href="#对工作的反思">对工作的反思</a></li>
+</ul><p>最近开始关注李沐大神的B站，李沐大神是机器学期、深度学习届的大牛，<a href="https://www.cs.cmu.edu/~muli/file/mxnet-learning-sys.pdf">MXNET</a>的主要作者和维护者之一，在分布式机器学习领域有很重要的贡献，现在任职于AWS做Senior Principal Scientist (应该是L8等级，如果硬要对标国内的话估计在阿里的P10,P11等级）。在翻看大神视频的间隙，看到了一篇大神的<a href="https://www.bilibili.com/read/cv11414235?spm_id_from=333.999.0.0">工作五年反思</a>以及另一篇<a href="https://www.bilibili.com/read/cv13335461?spm_id_from=333.999.0.0">用随机梯度下降来优化人生</a>，深受触动。因此，也想借此机会写一篇工作五年总结（08/2016 to 10/2021）来做一次五年反思。</p>
+
+<h2 id="做有价值的事">
+<a class="anchor" href="#%E5%81%9A%E6%9C%89%E4%BB%B7%E5%80%BC%E7%9A%84%E4%BA%8B" aria-hidden="true"><span class="octicon octicon-link"></span></a>做有价值的事</h2>
+<h3 id="对自己的价值">
+<a class="anchor" href="#%E5%AF%B9%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BB%B7%E5%80%BC" aria-hidden="true"><span class="octicon octicon-link"></span></a>对自己的价值</h3>
+<p>做一件事对个人的价值可以是提升自身的能力和思维，获得即时的反馈或者是延迟的反馈。就拿一块石头最比喻，做对自己本身有价值的事就像是延拓石头空间的边界（例如进入新的领域），可以是打磨石头本身（例如在一个领域深耕），还可以是改变石头本身材质比如从沙子压缩成了钻石（提升核心能力和思维层级）。投资自己，做对自己有价值的事，是所有事的基石。这让我想起了Ray Dalio在他很有名的视频<a href="https://www.youtube.com/watch?v=PHe0bXAIuk0&amp;t=1777s">How the economic machine works</a>最后的建议中提到的</p>
+<ul>
+  <li>Rule one: Don’t have debt rise faster than income. Because your debt durdens will eventually crush you. 量力而行。</li>
+  <li>Rule two: Don’t have income rise fast than productivity. Because you will eventually become uncompetitive. 德要配位。</li>
+  <li>Rule three: Do all that you can to raise your productivity. Because, in the long run, that’s what matters most. 投资自己是长期最终要的事</li>
+</ul>
+
+<p><img src="/evolve-or-die/images/economic_machine_works.png" alt="" title="Growth cycles"></p>
+
+<h3 id="对核心圈的价值">
+<a class="anchor" href="#%E5%AF%B9%E6%A0%B8%E5%BF%83%E5%9C%88%E7%9A%84%E4%BB%B7%E5%80%BC" aria-hidden="true"><span class="octicon octicon-link"></span></a>对核心圈的价值</h3>
+<p>这儿我想把自己身边能够直接影响到的人(核心圈)和更广泛的“社会”区分开来。核心圈可以包括身边的人比如夫妻，子女，直属亲人如父母，直接工作伙伴如直属上级下级、直接同事，亲密的朋友。根据李沐大神一件事的价值公式</p>
+<blockquote>
+  <p>受益人数 x 人均时间 x 单位时间价值差</p>
+</blockquote>
+
+<p>因为核心圈的人数本身不容易增加，也不应该轻易增加，因此重心应该是放在提升人均时间和提高单位时间价值上。比如李沐大神提到了，陪他的儿子，虽然会对工作时间、质量等方面造成影响，但这件事提供了大量陪孩子的时间以及世界上独一无二的价值：一个父亲和子女的互动的单位价值远远高于与一个平均的人互动的价值，以及它是不可替代的，并会有非常对孩子和父亲都有非常深远的影响。</p>
+
+<h3 id="对核心圈以外的价值">
+<a class="anchor" href="#%E5%AF%B9%E6%A0%B8%E5%BF%83%E5%9C%88%E4%BB%A5%E5%A4%96%E7%9A%84%E4%BB%B7%E5%80%BC" aria-hidden="true"><span class="octicon octicon-link"></span></a>对核心圈以外的价值</h3>
+<p>对于核心圈以外的价值其实有点类似于，把你自己这一块石头投入社会这个大的海洋中，泛起的涟漪就是你的影响。大部分人只是小石头，影响非常有限，少部分人是更大、更重的石头，有些甚至能到达陨石级别，它们所激发的能量能够影响成千上万人，甚至跨越时间地影响后世。在这个层面，要做的有价值的事，可能是做一个受众很广的产品。这个产品可以是物质的比如袁孔平老先生的杂交水稻，也可以是精神的比如乔布斯的斯坦福演讲。这一切的前提在于你本身的能量，传播路径和受众层次，只有当两者兼备的时候给社会带来的更多价值。假设一个人或产品本身没有实打实的能量，那即便受众很大，带来的实质影响从深度和广度来说也是有限和片面的，就有点像你把一大把沙子均匀的洒进大海，和一个同质量的陨石带来的影响，是完全不同的。同时，如果你没有很好地关心传播途径和受众本身的接受度，那即使你的能量很大，那对受众的影响也是有折扣的。</p>
+
+<p>现在的社会把传播路径已经做得非常好了，这并不是说我们就不需要投入精力在这上面，而是不能仅仅把资源和精力放在路径上。打铁还需自身硬，同时想清楚自己想要影响什么样的人群，怎么样更好地使他们理解等等。现在太多的人在“肚子空空”的情况下火了，这也许能够带来短暂的流量、金钱、地位，但对于个人长期来说并没有益处。</p>
+
+<h2 id="目标的选择">
+<a class="anchor" href="#%E7%9B%AE%E6%A0%87%E7%9A%84%E9%80%89%E6%8B%A9" aria-hidden="true"><span class="octicon octicon-link"></span></a>目标的选择</h2>
+<p>就像李沐大神在<a href="https://www.bilibili.com/read/cv13335461?spm_id_from=333.999.0.0">用随机梯度下降来优化人生</a>里提到的，目标要大，如果你很轻易地知道你要走到哪里，通过大概什么样的途径，那可能目标就不够大。很多人会说“这是对大神来说，我一个普通人不需要什么足够大的目标”。这中理解反映了几个问题：</p>
+<ul>
+  <li>并没有用成长的心态去看待自己，觉得自己的才能是恒定的，并不能有巨大的成长。自知之明的意思并不是限制一个人的发展，而是认清楚自己目前所在的位置，一步一步去走向目标</li>
+  <li>目标足够大都是因人而异的。你的大目标可能别人的小目标，但这并不代表你的目标就不足够亦可赛艇，也不代表不需要你付出足够多的努力。不要被别人玩的游戏影响了自己的人生
+对于生长在和平年代的我来说，财务自由是下一个阶段要实现的目标，做到资产带来的被动收入足够支付的支出。当不再为一辈子的生计发愁时，目标应该会是影响更多的人，给别人带来帮助和价值，而至于是什么价值，这会是一个永恒变化的答案。而现在的我还是像李沐大神所说的，把时间专注在未来3年的目标上会比较好，在此期间，其实也有很多机会实现为核心圈提供价值和为社会提供价值的机会。</li>
+</ul>
+
+<h2 id="对工作的反思">
+<a class="anchor" href="#%E5%AF%B9%E5%B7%A5%E4%BD%9C%E7%9A%84%E5%8F%8D%E6%80%9D" aria-hidden="true"><span class="octicon octicon-link"></span></a>对工作的反思</h2>
+
+  </div><a class="u-url" href="/evolve-or-die/deeplearning/reading_notes/2021/10/16/%E5%B7%A5%E4%BD%9C%E4%BA%94%E5%B9%B4%E5%8F%8D%E6%80%9D.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/evolve-or-die/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/evolve-or-die/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/evolve-or-die/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Mainly about technology, management, ideas</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/fastai" title="fastai"><svg class="svg-icon grey"><use xlink:href="/evolve-or-die/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/fastdotai" title="fastdotai"><svg class="svg-icon grey"><use xlink:href="/evolve-or-die/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
