@@ -2,7 +2,7 @@
 toc: true
 layout: post
 categories: [investment,FIRE,reading_notes]
-title: Early Retirement Extreme - A philosophical and practical guide to financial independence - 19
+title: Early Retirement Extreme - A philosophical and practical guide to financial independence - 15
 ---
 > “This figure shows a complementary way of mapping out the consequences. For those familiar with "fish bone" diagrams, this is the reverse of one. The taken position is a zeroth-order effect and it has first-order effects. Positive effects go over the line. Negative effects go under the line. Each effect also has second-order effects. Positive effects go over the line. Negative effects go under the line. It's difficult to say if a position that has a weak positive first-order effect with a strong negative second-order effect or a weak negative first-order effect with a strong positive second-order effect is net positive. If this can't be determined, the behavior is too complicated and should be avoided (see here). Hopefully this won't be a problem and second-order effects can be ignored. However, sometimes second- and even third-order effects either add up or accumulate undetected for a long time before triggering spectacular event.”
 
