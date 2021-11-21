@@ -15,3 +15,7 @@ title: Early Retirement Extreme - A philosophical and practical guide to financi
 > Keep in mind though that you as an asset manager are not necessarily striving towards having an edge. Living off of your money will make preservation of pprincipal, keeping up with inflation, minimizing taxes, and providing a stipend more important that outperforming the market.
 
 太多的人“seeking alpha”，结果确是绝大多数都跑输大盘。
+
+> This is because a college education creates followers, oor people who are habituated to being handed a bunch of instructions and then delivering a product, from years of pratice. It doesn't matter what the form of the product is - that is, whether it's an essay or a math problem. The important parts are the assignments, the deadlines, the grades and the annual reviews; a structure that is repeated at the employee level in corporations. 
+
+大学培养的大部分人是追随者。但说实在的打工人确实从社会角度来说是要占大头。而且打工人也自己的层级也有领导的对象和追随的对象，没有绝对的领导者。
