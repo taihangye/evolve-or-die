@@ -20,5 +20,6 @@ Logic and history show us that there is a continuum of actions to stimulate spen
 - Not bothering to go through issuing debt, and instead giving newly printed money directly to the
 government to spend. 
 - Printing money and doing direct cash transfers to households (i.e., “helicopter money”).
+- Big debt write-down accompanied by big money creation
 
 policy 3就是直接把钱塞到实体经济手中，鼓励消费，鼓励创造就业，刺激实体经济。这儿财政政策和货币政策往往会配合。
