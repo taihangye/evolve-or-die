@@ -1,0 +1,17 @@
+---
+toc: true
+layout: post
+categories: [investment,reading_notes]
+title: Big Debt Crisis - 12
+---
+> Asset/currency holders typically worry that policy makers will impose restrictions on their ability to get their money out of the country, which encourages them to get their money out while they still can, which further increases the balance of payments problem. Policy makers worry about capital outflows and the possibility of a currency collapse. As the balance of payments deteriorate, the central bank’s job becomes more difficult—i.e., it gets less economic growth per unit of inflation because the negative flows lead the currency to depreciate, interest rates to rise, and/or reserves to decline, depending on how the central bank chooses to handle it.
+
+当一个国家的人民想把钱转移到更安全的资产、货币中时，会导致一个国家对外债还款能力的下降（因为外汇贮备降低），当资金流出成为主流，本国货币会贬值，国内利率需要上升（来减缓流出的趋势），外汇储备下降。
+
+> At this stage, central banks typically try to defend their currencies by a) filling the balance of payments deficit by spending down reserves and/or b) raising rates. These currency defenses and managed currency declines rarely work because the selling of reserves and/or the raising of interest rates creates more of an opportunity for sellers, while it doesn’t move the currencies and interest rates to the levels that they need to be to bring about sustainable economic conditions. Let’s look at this typical defense and why it fails.
+
+> There is a critical relationship between a) the interest rate difference and b) the spot/forward currency relationship. The amount the currency is expected to decline is priced into how much less the forward price is below the spot price. For example, if the market expects the currency to fall by 5 percent over a year, it will need that currency to yield a 5 percent higher interest rate. The math is even starker when depreciation is expected over short periods of time. If the market expects a 5 percent depreciation over a month, than it will need that currency to yield a 5 percent higher interest rate over that month—and a 5 percent monthly interest is equivalent to an annual interest rate of about 80 percent—a level that’s likely to produce a very severe economic contraction in an already weak economy. Because a small expected currency depreciation (say 5 to 10 percent in a year) would equal a large interest rate premium (5 to 10 percent per year higher), this path is intolerable.
+
+> Said differently, a managed currency decline accompanied by falling reserves causes the market to expect continued future currency depreciation, which pushes up domestic interest rates (as described above), acting as a tightening at a time when the economy is already weak. Also, the expectation of continued devaluation will encourage increased capital withdrawals and devaluation speculation, widening the balance of payments gap and forcing the central bank to spend down more reserves to defend the currency (or abandon the planned gradual depreciation). Also, a currency defense by spending reserves will have to stop because no sensible policy maker will want to run out of such “savings.” In such currency defenses, policy makers—especially those defending a peg—will typically make boldly confident statements vowing to stop the currency from weakening. All of these things classically happen just before the cycle moves to its next stage, which is letting the currency go.
+
+这几段还是挺经典的。当货币贬值，假设一年后贬值5%，想要保持不贬值，那就预期5%的利率提升，这会进一步导致经济的衰弱。而且人们的预期和羊群效应会发生，倒是可能贬值的速度是每个月5%，那提升利率的做法就没办法阻挡货币贬值。央行想要用外汇储备来还钱也是长期不现实的，毕竟那是有限资源挡不住大势。
