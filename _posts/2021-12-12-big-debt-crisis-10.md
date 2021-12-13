@@ -2,7 +2,7 @@
 toc: true
 layout: post
 categories: [investment,reading_notes]
-title: Big Debt Crisis - 9
+title: Big Debt Crisis - 10
 ---
 > The bubble emerges in the midst of a self-reinforcing virtuous cycle of strong capital flows, good asset returns, and strong economic conditions. The capital that came in during the early upswing produced good returns, as it was invested productively and led to asset price appreciation, which attracted even more capital. In the bubble phase, the prices of the currency and/or the assets get bid up and increasingly financed by debt, making the prices of these investments too high to produce adequate returns, but the borrowing and buying continues because prices are rising, and so debts rise rapidly relative to incomes.
 
