@@ -8,3 +8,7 @@ title: Wherever you go three you are - 9
 It is so much easier to find fault, to blame, to believe that what is needed is a change on the outside, an escape from the forces that are holding you back, preventing you from growing, from finding happiness. You can even blame yourself for it all and, in the ultimate escape from responsibility, run away feeling that you have made a hopeless mess of things, or that you are damaged beyond repair. In either case, you believe that you are incapable of true change or growth, and that you need to spare others any more pain by removing yourself from the scene.”
 
 这里聊了因果报应、业力、业障。其实理解起来就是，一个人的所作所为，所思所想都是伴随人一生的。很多人或是无法接受，或是责怪外界，或是逃避，或是觉得换个环境就可以重新出发，或是责怪自己觉得无力改变。这种其实是世上真是天天都在发生的，佛学感觉很神秘，什么禅修，密宗等等，但用人话说还是很容易能理解的。
+
+> “There is no successful escaping from yourself in the long run, only transformation. It doesn’t matter whether you are using drugs or meditation, alcohol or Club Med, divorce or quitting your job. There can be no resolution leading to growth until the present situation has been faced completely and you have opened to it with mindfulness, allowing the roughness of the situation itself to sand down your own rough edges. In other words, you must be willing to let life itself become your teacher.”
+
+既然无法逃避，那就要真正意义上的理解自己所面对的情况，让生活做自己的老师，认真的去审视和理解，这样才有可能找到解决之道。
