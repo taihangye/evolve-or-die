@@ -2,7 +2,7 @@
 toc: true
 layout: post
 categories: [leadership,reading_notes]
-title: The First 90 days, Updated and Expanded: Proven strategies for getting up to speed faster and smarter - 1
+title: The First 90 days, Updated and Expanded - Proven strategies for getting up to speed faster and smarter - 1
 ---
 > “The point of the expectations conversation is for you and your boss to clarify and align your expectations about the future. You need to agree on short- and medium-term goals and on timing. Critically, you need to agree on how your boss will measure progress. What will constitute success, for your boss and for you? When does your boss expect to see results? How will you measure success? Over what time frame? If you succeed, what is next? If you don’t manage expectations, they will manage you.”
 
