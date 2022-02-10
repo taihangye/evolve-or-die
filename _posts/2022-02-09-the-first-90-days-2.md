@@ -2,7 +2,7 @@
 toc: true
 layout: post
 categories: [leadership,reading_notes]
-title: The First 90 days, Updated and Expanded: Proven strategies for getting up to speed faster and smarter - 2
+title: The First 90 days, Updated and Expanded - Proven strategies for getting up to speed faster and smarter - 2
 ---
 > “Why are transitions critical? When I surveyed more than thirteen hundred senior HR leaders, almost 90 percent agreed that “transitions into new roles are the most challenging times in the professional lives of leaders.”1 And nearly three-quarters agreed that “success or failure during the first few months is a strong predictor of overall success or failure in the job.” So even though a bad transition does not necessarily doom you to failure, it makes success a lot less likely.
 The good news on transitions is that they give you a chance to start afresh and make needed changes in an organization. But transitions are also periods of acute vulnerability, because you lack established working relationships and a detailed understanding of your new role. You’re managing under a microscope, subject to a high degree of scrutiny as people around you strive to figure out who you are and what you represent as a leader. Opinions of your effectiveness begin to form surprisingly quickly, and, once formed, they’re very hard to change. If you’re successful in building credibility and securing early wins, the momentum likely will propel you through the rest of your tenure. But if you dig yourself into a hole early on, you will face an uphill battle from that point forward.”
