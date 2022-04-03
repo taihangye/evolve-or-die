@@ -2,7 +2,7 @@
 toc: true
 layout: post
 categories: [management,leadership,reading_notes]
-title: The manager's path
+title: The manager's path - 1
 ---
 > “When you are interested in being promoted, it’s very important to ask your manager for specific areas to focus on in order to get that promotion. Managers usually cannot guarantee promotions, but good managers know what the system is looking for and can help you build those achievements and skills. Again, this only goes so far. At more senior levels of work, opportunities for promotion are much more rare, and your manager may need you to find and propose the achievements that qualify you for the next level.”
 
