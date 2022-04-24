@@ -1,4 +1,4 @@
-> ---
+---
 toc: true
 layout: post
 categories: [management,leadership,reading_notes]
